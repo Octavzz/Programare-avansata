@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1406dfe3-d5be-46dd-a3bb-19b00f3c179f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YGeWcEMNkxyDKFLWL23Xs24fl6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="PA02.Main" />
+      <module name="PA02" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1406dfe3-d5be-46dd-a3bb-19b00f3c179f" name="Default Changelist" comment="" />
+      <created>1582573390672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582573390672</updated>
+      <workItem from="1582576143215" duration="31000" />
+      <workItem from="1582617604462" duration="337000" />
+      <workItem from="1582624912745" duration="7010000" />
+      <workItem from="1583179112016" duration="271000" />
+      <workItem from="1583234225338" duration="3151000" />
+      <workItem from="1583394353305" duration="562000" />
+      <workItem from="1583759460212" duration="526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583394842955">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1583394719276" />
+    <state x="240" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1583394842955" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1583244771413">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1583244771413" />
+    <state x="453" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582650677930" />
+    <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583394366303">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1583394366303" />
+    <state x="270" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582648717693">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="270" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.777@0.23.1280.777" timestamp="1582648717693" />
+    <state width="1238" height="227" key="GridCell.Tab.0.bottom" timestamp="1583308616493">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="227" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583308616493" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582652207180" />
+    <state width="1238" height="227" key="GridCell.Tab.0.center" timestamp="1583308616492">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="227" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583308616492" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582652207179" />
+    <state width="1238" height="227" key="GridCell.Tab.0.left" timestamp="1583308616491">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="227" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583308616491" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582652207179" />
+    <state width="1238" height="227" key="GridCell.Tab.0.right" timestamp="1583308616493">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="227" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583308616493" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582652207180" />
+    <state x="304" y="114" key="NewModule_or_Project.wizard" timestamp="1583759769678">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="304" y="114" key="NewModule_or_Project.wizard/0.23.1280.777@0.23.1280.777" timestamp="1583759769678" />
+    <state x="156" y="39" key="SettingsEditor" timestamp="1583394482673">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="156" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583394482673" />
+    <state x="111" y="23" key="new project wizard" timestamp="1583394897358">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="111" y="5" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1583239023310" />
+    <state x="111" y="23" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1583394897358" />
+  </component>
+</project>
