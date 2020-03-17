@@ -52,8 +52,5 @@ public class Main {
         residentList.stream()
                 .filter(res -> resPrefMap.get(res).contains(h[0]))
                 .forEach(System.out::println);
-
-
-
     }
 }

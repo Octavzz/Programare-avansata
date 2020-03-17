@@ -16,7 +16,7 @@ public class Document implements Serializable {
     }
 
     private Map<String, Object> tags = new HashMap<>();
-    //…
+
     public void addTag(String key, Object obj) {
         tags.put(key, obj);
     }
@@ -44,6 +44,4 @@ public class Document implements Serializable {
     public void setLocation(String location) {
         this.location = location;
     }
-
-    //…
 }
