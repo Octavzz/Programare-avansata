@@ -19,4 +19,11 @@ public class Resident implements Comparable<Resident> {
     public int compareTo(Resident other) {
         return getName().compareTo(other.getName());
     }
+
+    @Override
+    public String toString() {
+        return "Resident{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
