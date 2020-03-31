@@ -9,3 +9,8 @@ Am terminat partea compulsory de la lab5.
 Laborator 6:
 
 Am terminat partea compulsory de la lab6.
+
+Optional:
+Am adaugat un panel nou pentru selectarea a unor forme predefinite
+Am adaugat file chooser pentru save si load
+
