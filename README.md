@@ -5,3 +5,7 @@ Laborator 5:
 
 Am completat partea compulsory de la lab4, imi lipsea o metoda toString. <br/>
 Am terminat partea compulsory de la lab5.
+
+Laborator 6:
+
+Am terminat partea compulsory de la lab6.
