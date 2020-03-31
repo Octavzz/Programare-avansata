@@ -33,8 +33,20 @@ public class DrawingPanel extends JPanel {
     }
     private void drawShape(int x, int y) {
         Random randomNumber = new Random();
-        int radius = (int) frame.configPanel.sizeField.getValue(); //generate a random number
-        int sides = (int) frame.configPanel.sidesField.getValue(); //get the value from UI (in ConfigPanel)
+        int sides = (int) frame.configPanel.sidesField.getValue();
+        int radius = (int) frame.configPanel.sizeField.getValue();
+        //Sincronizarea intre ShapePanel si ConfigPanel
+
+        if(frame.shapePanel.shapeCombo.getSelectedItem() == "Custom")
+            sides = (int) frame.configPanel.sidesField.getValue();
+        else if(frame.shapePanel.shapeCombo.getSelectedItem() == "Circle")
+            frame.configPanel.sidesField.setValue(100);
+        else if(frame.shapePanel.shapeCombo.getSelectedItem() == "Triangle")
+            frame.configPanel.sidesField.setValue(3);
+        else if(frame.shapePanel.shapeCombo.getSelectedItem() == "Square")
+            frame.configPanel.sidesField.setValue(4);
+
+        //Color Combo
         Color color = new Color(randomNumber.nextInt(255), randomNumber.nextInt(255),randomNumber.nextInt(255), randomNumber.nextInt(255));
         if((String)frame.configPanel.colorCombo.getSelectedItem() == "Black")
             color = Color.BLACK; //create a transparent random Color.

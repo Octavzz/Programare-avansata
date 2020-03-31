@@ -35,17 +35,33 @@ public class ControlPanel extends JPanel {
 
     }
     private void save(ActionEvent e) {
-        try {
-            ImageIO.write(frame.canvas.image, "PNG", new File("e:/saved.png"));
-        } catch (IOException ex) { System.err.println(ex); }
+        JFileChooser saver = new JFileChooser();
+        saver.setDialogTitle("Select a location to save the image");
+        int userSelection = saver.showSaveDialog(frame.canvas);
+
+        if (userSelection == JFileChooser.APPROVE_OPTION) {
+            File savedFile = saver.getSelectedFile();
+            try {
+                ImageIO.write(frame.canvas.image, "PNG", savedFile);
+            } catch (IOException ex) { System.err.println(ex); }
+        }
     }
 
     private void load(ActionEvent e) {
-        try {
-            frame.canvas.image = ImageIO.read(new File("e:/saved.png"));
-            frame.canvas.graphics = frame.canvas.image.createGraphics();
-            frame.canvas.repaint();
-        } catch (IOException ex) { System.err.println(ex); }
+        JFileChooser loader = new JFileChooser();
+        loader.setDialogTitle("Select an image to load");
+        int userSelection = loader.showOpenDialog(frame.canvas);
+        if (userSelection == JFileChooser.APPROVE_OPTION) {
+
+            try {
+                File file = loader.getSelectedFile();
+                frame.canvas.image = ImageIO.read(new File(file.getAbsolutePath()));
+                frame.canvas.graphics = frame.canvas.image.createGraphics();
+                frame.canvas.repaint();
+            } catch (IOException ex) {
+                System.err.println(ex);
+            }
+        }
     }
 
     private void reset(ActionEvent e) {

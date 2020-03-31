@@ -9,6 +9,7 @@ public class ConfigPanel extends JPanel {
     JComboBox colorCombo; // the color of the shape
     JLabel sidesLabel; // no. of sides text
     JLabel sizeLabel; // size text
+    JLabel colorLabel; // Color text
     JSpinner sizeField; // input size
 
     public ConfigPanel(MainFrame frame) {
@@ -21,6 +22,7 @@ public class ConfigPanel extends JPanel {
         sidesField = new JSpinner(new SpinnerNumberModel(3, 3, 100, 1)); //min 3 sides
         sidesField.setValue(6); //default number of sides
         sizeLabel = new JLabel("Size:");
+        colorLabel = new JLabel("Color:");
         sizeField = new JSpinner(new SpinnerNumberModel(0,0,150,1));
         sizeField.setValue(20);
 
@@ -32,6 +34,7 @@ public class ConfigPanel extends JPanel {
         add(sidesField);
         add(sizeLabel);
         add(sizeField);
+        add(colorLabel);
         add(colorCombo);
     }
 }

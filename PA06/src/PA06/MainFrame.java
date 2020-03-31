@@ -8,6 +8,8 @@ public class MainFrame extends JFrame {
     ConfigPanel configPanel; //north
     ControlPanel controlPanel; //south
     DrawingPanel canvas; // center
+    ShapePanel shapePanel; // west
+
 
     public MainFrame() {
         super("My Drawing Application");
@@ -21,6 +23,7 @@ public class MainFrame extends JFrame {
         canvas = new DrawingPanel(this);
         configPanel = new ConfigPanel(this);
         controlPanel = new ControlPanel(this);
+        shapePanel = new ShapePanel(this);
 
         //arrange the components in the container (frame)
         //JFrame uses a BorderLayout by default
@@ -28,6 +31,7 @@ public class MainFrame extends JFrame {
         add(configPanel, NORTH);
         add(controlPanel, SOUTH);
         add(canvas, CENTER); //this is BorderLayout.CENTER
+        add(shapePanel, EAST);
 
         //invoke the layout manager
         pack();
