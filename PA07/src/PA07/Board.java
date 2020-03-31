@@ -9,4 +9,8 @@ public class Board {
     public void add(Token token) {
         tokens.add(token);
     }
+
+    public void remove(Token token) {
+        tokens.remove(token);
+    }
 }
