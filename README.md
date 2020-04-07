@@ -14,3 +14,9 @@ Optional:
 Am adaugat un panel nou pentru selectarea a unor forme predefinite
 Am adaugat file chooser pentru save si load
 
+Laborator 7:
+
+Nu am reusit sa termin compulosry
+
+Laborator 8:
+Am terminat partea compulsory de la lab8
