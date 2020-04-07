@@ -37,13 +37,13 @@ public class DrawingPanel extends JPanel {
         int radius = (int) frame.configPanel.sizeField.getValue();
         //Sincronizarea intre ShapePanel si ConfigPanel
 
-        if(frame.shapePanel.shapeCombo.getSelectedItem() == "Custom")
+        if(frame.shapePanel.shapeCombo.getSelectedItem().equals("Custom") )
             sides = (int) frame.configPanel.sidesField.getValue();
-        else if(frame.shapePanel.shapeCombo.getSelectedItem() == "Circle")
+        else if(frame.shapePanel.shapeCombo.getSelectedItem().equals("Circle"))
             frame.configPanel.sidesField.setValue(100);
-        else if(frame.shapePanel.shapeCombo.getSelectedItem() == "Triangle")
+        else if(frame.shapePanel.shapeCombo.getSelectedItem().equals("Triangle"))
             frame.configPanel.sidesField.setValue(3);
-        else if(frame.shapePanel.shapeCombo.getSelectedItem() == "Square")
+        else if(frame.shapePanel.shapeCombo.getSelectedItem().equals("Square"))
             frame.configPanel.sidesField.setValue(4);
 
         //Color Combo
