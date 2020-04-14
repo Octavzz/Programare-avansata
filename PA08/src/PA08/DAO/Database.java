@@ -1,4 +1,4 @@
-package PA08;
+package PA08.DAO;
 
 import java.sql.*;
 
