@@ -20,3 +20,7 @@ Nu am reusit sa termin compulosry
 
 Laborator 8:
 Am terminat partea compulsory de la lab8
+Am facut optionalul
+
+Laborator 9:
+Am terminat partea compulsory de la lab8
